@@ -42,6 +42,7 @@ fn main() {
     println!("cargo:rustc-link-search=native=/usr/lib64/");
     println!("cargo:rustc-link-search=native=/usr/lib/x86_64-linux-gnu/");
     println!("cargo:rustc-link-search=native=/usr/local/lib/");
+    println!("cargo:rustc-link-search=native=/opt/homebrew/lib/");
 
     println!("cargo:rustc-link-lib=static=boost_system");
     println!("cargo:rustc-link-lib=static=boost_filesystem");

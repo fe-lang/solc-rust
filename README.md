@@ -2,13 +2,19 @@
 
 Rust bindings for the [Solidity] compiler. It exposes [Compiler Input and Output JSON] API.
 
+## Build
+```
+git clone --recursive git@github.com:Y-Nak/solc-rust.git
+cargo build
+```
+
 ## Usage
 
 Add the dependency, as usual:
 
 ```toml
 [dependencies]
-solc = { git = "https://github.com/axic/solc-rust" }
+solc = { git = "https://github.com/Y-Nak/solc-rust" }
 ```
 
 In your project use it as:
