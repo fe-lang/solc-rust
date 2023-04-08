@@ -5,6 +5,7 @@ use std::process::Command;
 fn main() {
     let mut cmake = Config::new("solidity");
     cmake
+        .define("PEDANTIC", "OFF")
         .define("TESTS", "OFF")
         .define("TOOLS", "OFF")
         .define("USE_Z3", "OFF")
